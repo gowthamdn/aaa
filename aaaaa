@@ -1,0 +1,42 @@
+import time
+start=time.time()
+
+
+import collections
+
+single_linked_list=collections.deque()
+single_linked_list.append('30')
+single_linked_list.append('23')
+single_linked_list.append('56')
+single_linked_list.append('68')
+
+print(" elements of single linked list is:\n",single_linked_list)
+
+
+# insert new element at beginning
+single_linked_list.insert(0,'65')
+print(" after adding an elements at begining:\n",single_linked_list)
+
+# insert new elements at middle
+single_linked_list.insert(2,'75')
+print(" after adding an elements at middle:\n",single_linked_list)
+
+# insert new elements at end
+single_linked_list.insert(7,'15')
+print(" after adding an elements at end:\n",single_linked_list)
+
+# delete an element at beginning
+single_linked_list.remove('65')
+print(" after removing an elements at beginning:\n",single_linked_list)
+
+# delete an element at middle
+single_linked_list.remove('75')
+print(" after removing an elements at middle:\n",single_linked_list)
+
+# delete an element at end
+single_linked_list.remove('15')
+print(" after removing an elements at end:\n",single_linked_list)
+
+
+
+        
